@@ -1,0 +1,67 @@
+/* CSS Document */
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #333;
+}
+
+body {
+	background-color: #333333;
+}
+
+h1 {
+	color: brown;
+}
+
+ul.nav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: #222;
+}
+
+.active {
+	background-color: darkred;
+	color: white;
+}
+
+li {
+	float: left;
+	border-right: 1px solid white;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+li:last-child {
+	
+}
+
+main {
+	/*background-color: #666;*/
+	padding: 5px 10px 0px;
+	margin-top: 125px;
+	width: 100%;
+}
+
+img {
+	float: left;
+	padding-right: 5px;
+}
+
+p {
+	color: lightgrey;
+	padding-right: 5px;
+}
