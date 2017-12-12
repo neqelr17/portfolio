@@ -13,11 +13,23 @@ body {
 
 h1 {
 	color: brown;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	color: lightgrey;
+}
+
+h9 {
+	padding: 0;
+	margin: 0;
+	color: grey;
 }
 
 ul.nav {
 	list-style-type: none;
-    margin: 0;
+    margin-top: 5px;
     padding: 0;
 	overflow: hidden;
 	background-color: #222;
@@ -39,6 +51,7 @@ li a {
 	padding: 14px 16px;
 	text-align: center;
 	text-decoration: none;
+	font-family: Helvetica;
 }
 
 li a:hover {
@@ -50,18 +63,34 @@ li:last-child {
 }
 
 main {
-	/*background-color: #666;*/
+	background-color: #111;
 	padding: 5px 10px 0px;
 	margin-top: 125px;
+	margin-bottom: 0;
 	width: 100%;
 }
 
-img {
+main img {
+	float: right;
+	height: 300;
+	width: 300;
+}
+
+img.logo {
+	margin-top: 5px;
 	float: left;
 	padding-right: 5px;
+	height: 50px;
+	width: 50px;
 }
 
 p {
 	color: lightgrey;
 	padding-right: 5px;
+}
+
+footer {
+	background-color: black;
+	margin: 0;
+	padding: 7px 8px;
 }
